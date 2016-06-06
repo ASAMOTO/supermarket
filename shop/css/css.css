@@ -42,7 +42,7 @@ header h3{
 }
 
 #login_form{
-  width: 40%;
+  width: 50%;
   border: 2px solid #bababa;
   border-radius: 5px;
   margin:0 auto;
@@ -50,7 +50,7 @@ header h3{
   overflow: hidden;
 }
 #login_form .login_left_box{
-  width: 80%;
+  width: 70%;
   float: left;
 }
 #login_form .login_left_box table{
@@ -85,7 +85,7 @@ header h3{
   border:1px solid #bababa;
 }
 #login_form .login_right_box{
-  width: 20%;
+  width: 30%;
   float: left;
 }
 #login_form .login_right_box input[type=submit]{
