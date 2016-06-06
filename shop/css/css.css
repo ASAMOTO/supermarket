@@ -157,8 +157,8 @@ body{
 }
 .toppage_standard img{
   color: #fff;
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: 80px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -191,8 +191,8 @@ body{
 }
 .toppage_marketing img{
   color: #fff;
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: 80px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -225,8 +225,8 @@ body{
 }
 .toppage_cancel i{
   color: #fff;
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: 80px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
