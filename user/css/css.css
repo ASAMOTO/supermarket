@@ -269,17 +269,25 @@ font-family: FontAwesome /*FontAwesomeをフォント指定*/;
   color: #fff;
   text-align: center;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+.yobi_sale a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
+  font-weight: bold;
+  display: block;
 }
 .tirashi{
   margin-left: 5%;
   background-color: #ff8c00;
-  color: #fff;
   text-align: center;
+}
+.tirashi a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: block;
 }
 
 footer{
