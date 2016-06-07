@@ -168,17 +168,28 @@ body{
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
   margin-left: 10%;
-  margin-bottom: 5px;
   color: #fff;
 }
 .toppage_standard .standard_details{
   width: 80%;
   margin-left: 10%;
-  font-size: 100%;
-  letter-spacing: 3px;
-  line-height: 200%;
   margin-bottom: 30px;
+}
+.standard_details li{
+  border-bottom: 1px solid #fff;
+}
+.standard_details a{
+  display: block;
+  text-decoration: none;
   color: #fff;
+  letter-spacing: 3px;
+  font-size: 100%;
+  line-height: 300%;
+}
+.standard_details a:hover{
+  background-color: #fff;
+  color:#5f9ea0;
+  transition: all 0.5s;
 }
 
 .toppage_marketing{
@@ -202,17 +213,28 @@ body{
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
   margin-left: 10%;
-  margin-bottom: 5px;
   color: #fff;
 }
 .toppage_marketing .marketing_details{
   width: 80%;
   margin-left: 10%;
-  font-size: 100%;
-  letter-spacing: 3px;
-  line-height: 200%;
   margin-bottom: 30px;
+}
+.marketing_details li{
+  border-bottom: 1px solid #fff;
+}
+.marketing_details a{
+  display: block;
+  text-decoration: none;
   color: #fff;
+  letter-spacing: 3px;
+  font-size: 100%;
+  line-height: 300%;
+}
+.marketing_details a:hover{
+  background-color: #fff;
+  color:#d2b48c;
+  transition: all 0.5s;
 }
 
 
@@ -236,7 +258,6 @@ body{
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
   margin-left: 10%;
-  margin-bottom: 5px;
   color: #fff;
 }
 .toppage_cancel .cancel_details{
@@ -247,4 +268,25 @@ body{
   line-height: 200%;
   margin-bottom: 30px;
   color: #fff;
+}
+.toppage_cancel .cancel_details{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+.cancel_details li{
+  border-bottom: 1px solid #fff;
+}
+.cancel_details a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 100%;
+  line-height: 300%;
+}
+.cancel_details a:hover{
+  background-color: #fff;
+  color:#f08080;
+  transition: all 0.5s;
 }
