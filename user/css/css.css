@@ -24,9 +24,12 @@ header{
 header .area_area{
   width: 100%;
   border-bottom: 2px solid #fff;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   overflow: hidden;
   clear: both;
+}
+#toppage .area_area{
+  margin-bottom: 40px;
 }
 header .area_area p{
   float: left;
@@ -52,8 +55,17 @@ header .area_change a{
   background-color: #00ced1;
   line-height: 40px;
 }
-
 header .title_area{
+  width:100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+header .title_area h2{
+  color: #fff;
+  font-size: 150%;
+  letter-spacing: 5px;
+}
+#toppage .title_area{
   width:60%;
   margin:0 auto;
   margin-bottom: 20px;
@@ -65,12 +77,10 @@ header img{
 header .login_and_submit{
   width: 60%;
   margin: 0 auto;
-
 }
 header .login_and_submit .login_btn{
   width: 100%;
   background-color: #fff;
-  color:#AF1654;
   font-weight: bold;
   letter-spacing: 5px;
   border-radius: 5px;
@@ -78,24 +88,32 @@ header .login_and_submit .login_btn{
   line-height: 300%;
   margin-bottom: 10px;
 }
-header .login_and_submit .submit_btn{
+#toppage .login_and_submit .submit_btn{
   width: calc(100% - 4px);
   background-color: #af1654;
-  color:#fff;
   border: 2px solid #fff;
   font-weight: bold;
   letter-spacing: 5px;
   border-radius: 5px;
   text-align: center;
   line-height: 300%;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
-
+#toppage .login_and_submit a{
+  text-decoration: none;
+  display: block;
+}
+#toppage .login_btn a{
+  color:#AF1654;
+}
+#toppage .submit_btn a{
+  color:#fff;
+}
 header i{
   position: absolute;
   top: 60px;
   right: 20px;
-  size: 40px;
+  /*size: 40px;*/
   color: #fff;
   padding:10px;
   border: 2px solid #fff;
@@ -269,6 +287,7 @@ font-family: FontAwesome /*FontAwesomeをフォント指定*/;
   color: #fff;
   text-align: center;
   font-weight: bold;
+
 }
 .yobi_sale a{
   text-decoration: none;
@@ -283,6 +302,255 @@ font-family: FontAwesome /*FontAwesomeをフォント指定*/;
   text-align: center;
 }
 .tirashi a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
+  font-weight: bold;
+  display: block;
+}
+
+
+/************tirashi.html****************/
+#tirashi_area{
+  width: 100%;
+  background-color: #efefef;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 20px;
+}
+.tirashi_information_box{
+  width:90%;
+  background-color: #fff;
+  border:1px solid #bababa;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tirashi_information_box h4{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 150%;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bababa;
+  text-align: center;
+}
+.tirashi_omote{
+  width: 100%;
+  margin: 0 auto;
+}
+.tirashi_omote h5{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tirashi_ura h5{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.span_omote{
+  background-color: #f08080;
+  color: #fff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.span_ura{
+  width: 20%;
+  background-color: #20b2aa;
+  color: #fff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.tirashi_omote img{
+  width: 100%;
+  margin-bottom: 10px;
+  height: auto;
+}
+.tirashi_ura{
+  width: 100%;
+  margin: 0 auto;
+}
+.tirashi_ura img{
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+#page_back_area{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+#page_back_area i{
+  margin-right: 5px;
+}
+#page_back_area a{
+  display: block;
+  width: 100%;
+  font-size: 100%;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00ced1;
+  font-weight: bold;
+}
+
+
+/****************want.html*********************/
+#want_store_result{
+  width: 100%;
+  background-color: #efefef;
+  margin-bottom: 20px;
+  overflow: hidden;
+  clear: both;
+}
+#want_store_result .title_bar{
+  width: 100%;
+  text-align: center;
+}
+#want_store_result h3{
+  font-size: 150%;
+  color: #313131;
+  line-height: 80px;
+  letter-spacing: 5px;
+  font-weight: bold;
+
+}
+#want_store_result .map_area img{
+  width: 100%;
+  height:200px;
+}
+
+#want_store_result .map_area{
+  margin-bottom: 15px;
+}
+
+#want_store_result .store_information_box{
+  width:90%;
+  background-color: #fff;
+  border:1px solid #bababa;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#want_store_result .store_information_box h4{
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  font-size: 150%;
+  letter-spacing: 3px;
+}
+#want_store_result .eigyo_time_area{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+#want_store_result .eigyo_time_midashi{
+  background-color: #dc143c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 90%;
+  padding:2px;
+  padding-left:10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+#want_store_result .parking_area{
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  border-bottom :1px solid #bababa;
+}
+#want_store_result .parking_midashi{
+  background-color: #0000cd;
+  color: #fff;
+  font-weight: bold;
+  font-size: 90%;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+#want_store_result .store_information_box h5{
+  width: 80%;
+  font-size: 100%;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+#want_store_result .store_kodawari_box .kodawari_images{
+  width: 80%;
+  margin-left: 10%;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #bababa;
+}
+#want_store_result .kodawari_images img{
+  width: 18%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: auto;
+  float: left;
+
+}
+#want_store_result .no_other_box p{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 90%;
+  letter-spacing: 3px;
+  line-height: 180%;
+  margin-bottom:15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bababa;
+}
+
+#want_store_result .shop_btn_area{
+  width: 80%;
+  margin-left: 10%;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 30px;
+}
+#want_store_result shop_btn_area li{
+  width: 47.5%;
+  float: left;
+}
+#want_store_result .yobi_sale{
+  background-color: #9acd32;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+
+}
+#want_store_result .yobi_sale a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
+  font-weight: bold;
+  display: block;
+}
+#want_store_result .tirashi{
+  margin-left: 5%;
+  background-color: #ff8c00;
+  text-align: center;
+}
+#want_store_result .tirashi a{
   text-decoration: none;
   color: #fff;
   line-height: 60px;
